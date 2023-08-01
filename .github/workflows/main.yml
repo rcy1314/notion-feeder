@@ -1,8 +1,10 @@
 name: Get Feed
 
 on:
+  push:
+    branches: [ rcy1314-patch-1 ]
   schedule:
-   - cron: '0 */6 * * *'
+   - cron: '0 */3 * * *'
   workflow_dispatch:
 
 jobs:
